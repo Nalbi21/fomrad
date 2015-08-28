@@ -14,6 +14,30 @@
 				"buffer_size": 903,
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": "/C/xamppp/htdocs/FOMRAD/services.html",
+			"settings":
+			{
+				"buffer_size": 5454,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xamppp/htdocs/FOMRAD/soon.html",
+			"settings":
+			{
+				"buffer_size": 589,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xamppp/htdocs/FOMRAD/main.css",
+			"settings":
+			{
+				"buffer_size": 4579,
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "",
@@ -106,8 +130,8 @@
 						"selection":
 						[
 							[
-								903,
-								903
+								902,
+								902
 							]
 						],
 						"settings":
@@ -118,6 +142,90 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/xamppp/htdocs/FOMRAD/services.html",
+					"settings":
+					{
+						"buffer_size": 5454,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								86,
+								86
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/xamppp/htdocs/FOMRAD/soon.html",
+					"settings":
+					{
+						"buffer_size": 589,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								385,
+								385
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/xamppp/htdocs/FOMRAD/main.css",
+					"settings":
+					{
+						"buffer_size": 4579,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 359.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
