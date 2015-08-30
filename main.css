@@ -1,0 +1,239 @@
+body{
+  background-color: #fff;
+  margin: 0;
+}
+
+h1{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  letter-spacing: 4px;
+  font-size: 35px;
+  color: #000;
+}
+
+h2{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  letter-spacing: 3px;
+  line-height: 30px;
+  font-size: 18px;
+  color: #000;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: #fff;
+    background: #ff0072;
+}
+
+::selection {
+    color: #fff;
+    background: #00c0ff;
+}
+
+#fishcabot{
+  position: fixed;
+  width: 50%; max-width: 650px;
+  height: 100%;
+  right: 0; bottom: 0;
+  background-image: url('img/fishcabot-right.png');
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: bottom right;
+}
+
+#everything{
+  position: relative;
+  top: 100px;
+  margin: 0 auto;
+  /*margin-bottom: 100px;*/
+  padding-left: 80px;
+  padding-right: 80px;
+  max-width: 1040px;
+  min-height: 500px;
+  height: calc(100% - 200px);
+  background-color: transparent;
+}
+
+#logo{
+  position: absolute;
+  left: 64px; top: -17px;
+  width: 160px; height: 55px;
+  background-image: url('img/logo.png');
+  background-repeat: no-repeat;
+  background-size:  160px 55px;
+}
+
+#text{
+  position: relative;
+  left: 0; top: 100px;
+  max-width: 500px;
+}
+
+#title{
+  position: relative;
+  left: 0; top: 0;
+}
+
+#dot{
+  position: relative;
+  display: inline-block;
+  width: 9px; height: 9px;
+  background-color: #00c0ff;
+}
+
+#paragraph{
+  position: relative;
+  left: 0; margin-top: -15;
+}
+
+#services{
+  position: relative;
+  display: inline-block;
+  margin-right: 35px;
+  margin-top: 100px;
+  width: 170px; height: 18px;
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 3px;
+  line-height: 18px;
+  font-size: 20px;
+  color: #4a266a;
+  cursor: pointer;
+  border: 3px solid #4a266a;
+  -webkit-border-radius: 7px;
+  border-radius: 7px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  outline: none;
+}
+
+#services:hover{
+  background-color: #00c0ff;
+  border-color: #00c0ff;
+  color: #ffffff;
+  -webkit-box-shadow: 0 6px 12px -3px #ccc;
+  box-shadow: 0 6px 12px -3px #ccc;
+
+}
+
+#services:active{
+  background-color: #07b0e8;
+  border-color: #07b0e8;
+}
+
+/* link decoration */ 
+#services a{text-decoration:none;color:#4a266a;}
+
+#community a{text-decoration:none;color:#fff;}
+
+#community{
+  position: relative;
+  display: inline-block;
+  margin-top: 20px;
+  width: 170px; height: 18px;
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 3px;
+  line-height: 18px;
+  font-size: 20px;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4a266a;
+  border: 3px solid #4a266a;
+  -webkit-border-radius: 7px;
+  border-radius: 7px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  outline: none;
+}
+
+#community:hover{
+  background-color: #00c0ff;
+  border-color: #00c0ff;
+  color: #ffffff;
+  -webkit-box-shadow: 0 6px 12px -3px #ccc;
+  box-shadow: 0 6px 12px -3px #ccc;
+}
+
+#community:active{
+  background-color: #07b0e8;
+  border-color: #07b0e8;
+}
+
+#footer{
+  position: relative;
+  display: block; bottom: 0;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 14px;
+  color: #aaa;
+}
+
+@media screen and (max-width: 1250px){
+  #fishcabot{
+    position: fixed;
+    width: 50%;
+    height: 80%;
+    right: 0; bottom: 0;
+    background-image: url('img/fishcabot-right.png');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: bottom right;
+  }
+}
+
+@media screen and (max-width: 1100px){
+  #fishcabot{
+    position: fixed;
+    width: 100%;
+    height: 70%;
+    right: 0; bottom: 0;
+    background-image: url('img/fishcatbot-transp.png');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: bottom right;
+  }
+}
+
+@media screen and (max-width: 900px){
+
+  #everything{
+    height: calc(100% - 100px);
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 650px){
+  #logo{
+    left: 24px;
+  }
+
+  #services{
+    width: calc(100% - 46px);
+  }
+
+  #community{
+    width: calc(100% - 46px);
+  }
+
+  #everything{
+    top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: calc(100% - 100px);
+    margin: 0;
+  }
+}
