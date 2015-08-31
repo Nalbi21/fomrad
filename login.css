@@ -1,0 +1,230 @@
+body{
+  background-color: #4a266a;
+  background-image: url('img/overlay.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+h1{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  letter-spacing: 4px;
+  font-size: 35px;
+  color: #000;
+}
+
+h2{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 30px;
+  font-size: 13px;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: #fff;
+    background: #ff0072;
+}
+
+::selection {
+    color: #fff;
+    background: #00c0ff;
+}
+
+#dot{
+  position: relative;
+  display: inline-block;
+  width: 9px; height: 9px;
+  background-color: #00c0ff;
+}
+
+#everything{
+  position: relative;
+  top: 100px;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 300px;
+  min-height: 500px;
+  height: auto;
+  background-color: transparent;
+}
+
+#logo{
+  position: relative;
+  margin: 0 auto;
+  width: 160px; height: 55px;
+  background-image: url('img/logo.png');
+  background-repeat: no-repeat;
+  background-size:  160px 55px;
+}
+
+#text{
+  text-align: center;
+}
+
+#container{
+  position: relative;
+  top: 0;
+  margin: 0 auto;
+  padding: 30px;
+  width: calc(100% - 60px);
+  height: auto;
+  background-color: #fff;
+  -webkit-box-shadow: 0 6px 12px -3px #222;
+  box-shadow: 0 6px 12px -3px #222;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+#username{
+  width: 100%; height: 18px;
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding: 20px 10px 20px 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  text-align: left;
+  letter-spacing: 1px;
+  line-height: 20px;
+  font-size: 16px;
+  color: #4a266a;
+  border: 3px solid #e5e5e5;
+  -webkit-border-radius: 7px 7px 0px 0px;
+  border-radius: 7px 7px 0px 0px;
+  outline: none;
+  z-index: 9;
+}
+
+#username:hover{
+  border: 3px solid #ccc;
+}
+
+#username:focus{
+  border: 3px solid #4a266a;
+  z-index: 10;
+}
+
+#password{
+  width: 100%; height: 18px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding: 20px 10px 20px 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  text-align: left;
+  letter-spacing: 1px;
+  line-height: 20px;
+  font-size: 16px;
+  color: #4a266a;
+  border: 3px solid #e5e5e5;
+  border-top: 0;
+  -webkit-border-radius: 0px 0px 7px 7px;
+  border-radius: 0px 0px 7px 7px;
+  outline: none;
+  z-index: 9;
+}
+
+#password:hover{
+  margin-top: 0px;
+  border: 3px solid #ccc;
+  border-top: 0;
+}
+
+#password:focus{
+  margin-top: -3px;
+  border: 3px solid #4a266a;
+}
+
+#submit{
+  position: relative;
+  width: 100%; height: 18px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  float: right;
+  right: 0px;
+  padding: 20px 10px 20px 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 2px;
+  line-height: 1px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #4a266a;
+  border: 3px solid #4a266a;
+  -webkit-border-radius: 7px;
+  border-radius: 7px;
+  outline: none;
+}
+
+#submit:hover{
+  border: 3px solid #693a94;
+  background-color: #693a94;
+}
+
+#submit:focus{
+  background-color: #361b4f;
+  border-color: #361b4f;
+}
+
+#new{
+  position: relative;
+  width: calc(100% + 30px);
+  height: auto;
+  display: inline-block;
+  left: -30px;
+  bottom: -29px;
+  padding: 0 15px 0 15px;
+  text-align: center;
+  color: #4a266a;
+  border-top: 1px solid #dbc6ed;
+  background-color: #e1d9ed;
+  -webkit-border-radius: 0px 0px 4px 4px;
+  border-radius: 0px 0px 4px 4px;
+}
+
+/*#new:hover{
+  border-top: 1px solid #c4b0d6;
+  background-color: #d1c7e0;
+}*/
+
+#new a{
+  text-decoration: none;
+  color: #4a266a;
+}
+
+#new:hover a{
+  text-decoration: underline;
+}
+
+#footer{
+  position: relative;
+  display: block; bottom: 0;
+  margin-top: 50px;
+  margin-bottom: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 650px){
+  #everything{
+    max-width: 100%;
+    left: 0; top: 0px;
+    margin: 0;
+  }
+
+  #container{
+    left: 0;
+    overflow: hidden;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+  }
+}
