@@ -1,0 +1,199 @@
+body{
+  background-color: #fff;
+  margin: 0;
+}
+
+h1{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  letter-spacing: 4px;
+  font-size: 35px;
+  color: #000;
+}
+
+h2{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  letter-spacing: 3px;
+  line-height: 30px;
+  font-size: 18px;
+  color: #000;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: #fff;
+    background: #ff0072;
+}
+
+::selection {
+    color: #fff;
+    background: #00c0ff;
+}
+
+#dot{
+  position: relative;
+  display: inline-block;
+  width: 9px; height: 9px;
+  background-color: #00c0ff;
+}
+
+#everything{
+  position: relative;
+  top: 100px;
+  margin: 0 auto;
+  padding-left: 80px;
+  padding-right: 80px;
+  max-width: 1040px;
+  min-height: 500px;
+  height: auto;
+  background-color: transparent;
+}
+
+#logo{
+  position: absolute;
+  left: 64px; top: -17px;
+  width: 160px; height: 55px;
+  background-image: url('img/logo.png');
+  background-repeat: no-repeat;
+  background-size:  160px 55px;
+}
+
+#nav{
+  position: relative;
+  width: 100%;
+  left: -60px;
+  padding: 30px 60px 30px 60px;
+  background-color: #00c0ff;
+  background-image: url('img/fishcabot-wb-t.png');
+  background-repeat: no-repeat;
+  background-size:  auto 150%;
+  background-position: right;
+  list-style-type: none;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 30px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 18px;
+  color: #fff;
+}
+
+#nav li{
+  padding: 3px;
+}
+
+#nav a{
+  text-decoration: none;
+  color: #fff;
+  margin-left: -10px;
+  padding: 7px 10px 7px 10px;
+  -webkit-border-radius: 40px;
+  border-radius: 40px;
+}
+
+#nav a:hover{
+  background-color: #07b0e8;
+  color: #fff;
+}
+
+#contact{
+  position: relative;
+  width: 100%; height: auto;
+  left: -60px;
+  margin-top: 70px;
+  padding: 30px 60px 30px 60px;
+  background-color: #4a266a;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 25px;
+  text-align: center;
+  color: #fff;
+}
+
+#c-button{
+  position: relative;
+  display: inline-block;
+  margin-left: 30px;
+  width: 170px; height: 18px;
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 3px;
+  line-height: 18px;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  border: 3px solid #fff;
+  -webkit-border-radius: 7px;
+  border-radius: 7px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  outline: none;
+}
+
+#c-button {
+  text-decoration: none;
+  color: #fff;
+}
+
+#c-button:hover{
+  background-color: #fff;
+  border-color: #fff;
+  color: #4a266a;
+}
+
+#c-button:active{
+  background-color: #07b0e8;
+  border-color: #07b0e8;
+  color: #fff;
+}
+
+#footer{
+  position: relative;
+  display: block; bottom: 0;
+  height: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-image: url('img/fishcabot.png');
+  background-repeat: no-repeat;
+  background-size:  auto 30px;
+  background-position: right;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 35px;
+  font-size: 14px;
+  color: #aaa;
+}
+
+@media screen and (max-width: 650px){
+  #everything{
+    top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  #logo{
+    left: 24px;
+  }
+
+  #nav{
+    left: -40px;
+    padding: 30px 40px 30px 40px;
+  }
+
+  #contact{
+    height: auto;
+    left: -40px;
+    padding: 30px 40px 30px 40px;
+  }
+
+  #c-button{
+    margin: 0 auto;
+    top: 0px;
+  }
+}
