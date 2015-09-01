@@ -114,16 +114,7 @@
     </div>
   </div>
 
-  <div class="footer" id="section10">
-    <div class="parent">
-    <div id="footer-content">
-      <img style="opacity:0.3;margin-left: -12px;" src="img/fomrad-t.png" width="130px" height="auto"><br>
-    <div style="margin-top: -5px;">&copy;2015 Fomrad</div>
-    <!--<div style="position:absolute;right:0;">CONTENT</div>-->
-    </div>
-  </div>
-  </div>
-  </div>
+  <?php include 'footer.php'; ?>
 
   <script>
   $('a').click(function(){
