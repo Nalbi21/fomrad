@@ -105,14 +105,22 @@ content="img/logo.png" />
     <div class="special hash" id="section9" href="contact">
       <div class="parent">
       <!--<div id="paragraph-2" style="z-index: 70;">-->
+      <div id="dialogoverlay"></div>
+<div id="dialogbox">
+  <div>
+    <div id="dialogboxhead"></div>
+    <div id="dialogboxbody"></div>
+    <div id="dialogboxfoot"></div>
+  </div>
+</div>
       <div id="c-form">
         <div id="c-text">Take a deep breath and write us!</div><br>
         <form action="#section9">
-          <input class="c-field" id="txt1" type="text" placeholder="Full name"><br>
+          <input class="c-field" id="txt1" type="text" placeholder="Full name" r><br>
           <input class="c-field" id="txt2" type="text" placeholder="Company / Organization"><br>
           <input class="c-field" id="txt3" type="text" placeholder="Email"><br>
           <textarea class="c-textarea" id="txt4" rows="9" placeholder="Describe your project..."></textarea><br>
-          <input id="c-send" type="submit" value="Send" onclick='verif(document.getElementById("txt1").value,document.getElementById("txt2").value,document.getElementById("txt3").value,document.getElementById("txt4").value)'>
+          <input id="c-send" type="submit" value="Send" onclick='verif(document.getElementById("txt1").value,document.getElementById("txt2").value,document.getElementById("txt3").value,document.getElementById("txt4").value);Alert.render("Please, enter a valid e-mail adress.")'>
         </form>
       </div>
       <!--</div>-->

@@ -566,3 +566,26 @@ h1{
     height: 100%;
   }
 }
+#dialogoverlay{
+  display: none;
+  opacity: .2;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background: #fff;
+  width: 100%;
+  z-index: 10;
+}
+#dialogbox{
+  display: none;
+  position: fixed;
+  background: #4a266a;
+  border-radius:2px; 
+  width:550px;
+  z-index: 10;
+}
+#dialogbox > div{ background:#FFF; margin:8px;  font-family: Open Sans, sans-serif; }
+#dialogbox > div > #dialogboxhead{ background: #fff; font-size:19px; padding:10px; color:#4a266a; }
+#dialogbox > div > #dialogboxbody{ background:#4a266a; padding:20px; color:#fff;  font-family: Open Sans, sans-serif;}
+#dialogbox > div > #dialogboxfoot{ background: #fff; padding:10px; text-align:right; }
+
